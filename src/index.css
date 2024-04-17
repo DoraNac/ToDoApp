@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #007bff;
+}
+
+.main {
+  border-radius: 30px;
+  background-color: #fff;
+  width: 500px;
+  height: fit-content;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+span {
+  margin-left: 10px;
+}
+
+.deleteButton {
+  margin-right: 35px;
+  padding: 5px;
+  font-size: 1rem;
+  background-color: #cddced;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+.deleteButton:hover {
+  background-color: rgb(160, 196, 227);
+}
+
+.appTitle {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.deleteButtonDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
