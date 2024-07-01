@@ -15,3 +15,7 @@ Usage
     Add To-Do: Type a task and click Add.
     Mark as Done: Click the checkbox next to a task.
     Delete To-Do: Click the Delete button next to a task.
+    
+View on Netlify
+
+https://to-do-app-local-storage.netlify.app
